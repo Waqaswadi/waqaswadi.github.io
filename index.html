@@ -1,1 +1,131 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waqas Wadiwala - Data Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0078D7;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0078D7;
+            padding-bottom: 0.5rem;
+            color: #0078D7;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .project-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-card h3 {
+            margin-top: 0;
+            color: #0078D7;
+        }
+        .project-card p {
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .project-card a {
+            text-decoration: none;
+            color: #0078D7;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Waqas Wadiwala</h1>
+        <p>Data Analyst & Engineer | Transforming data into actionable insights</p>
+    </header>
+    
+    <main>
+        <section class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate data analyst and engineer with over 4 years of experience in extracting insights from data, building predictive models, and creating interactive dashboards. I specialize in solving complex business challenges and leveraging data to drive smarter decisions.</p>
+        </section>
+
+        <section class="section">
+            <h2>Featured Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Health Insurance to Car Insurance Model</h3>
+                    <p>Implemented supervised machine learning models to predict car insurance purchases by existing health insurance customers. Achieved 90% accuracy using Python libraries for data preprocessing and hyperparameter tuning.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Energy Price Prediction</h3>
+                    <p>Led a team to process over 20 million rows of time series data, building and optimizing neural network models (LSTM, RNN, GRU) for accurate price forecasting using TensorFlow.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Web Traffic Analysis</h3>
+                    <p>Analyzed user traffic data using Adobe Analytics and Google Analytics, delivering actionable insights that improved user engagement by 23% and optimized the customer journey.</p>
+                    <a href="#">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Predictive Revenue Model</h3>
+                    <p>Developed predictive models in Python to accurately forecast revenue and KPIs, enabling stakeholders to make informed decisions and plan strategies effectively.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Contact</h2>
+            <p>If you’d like to discuss opportunities or learn more about my work, feel free to reach out!</p>
+            <p><strong>Email:</strong> <a href="mailto:waqaswadi@gmail.com">waqaswadi@gmail.com</a></p>
+            <p><strong>Phone:</strong> +44 7385 643830</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com">Visit My Profile</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Waqas Wadiwala. All rights reserved.</p>
+    </footer>
+</body>
+</html>
