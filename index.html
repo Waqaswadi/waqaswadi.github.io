@@ -11,120 +11,111 @@
     <div id="wrapper" class="fade-in">
         <div id="intro">
             <h1>Waqas Wadiwala's<br />Portfolio</h1>
-            <p>A sneak peek into how I, <a href="https://www.linkedin.com/in/waqaswadiwala/">Waqas Wadiwala</a>, interpret and visualize data.<br />Enjoy some of my experimental dashboards and work.</p>
+            <p>A showcase of my expertise in **Data Analytics, SQL, Python, and Business Intelligence**.<br />
+            Explore my dashboards, projects, and analytical insights.</p>
             <ul class="actions">
                 <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
             </ul>
         </div>
+        
         <header id="header">
-            <a href="index.html" class="logo">Let's Go</a>
+            <a href="index.html" class="logo">Explore</a>
         </header>
+        
         <nav id="nav">
             <ul class="links">
-                <li class="active"><a href="index.html">Dashboards</a></li>
-                <li><a href="#sql-python">SQL & Python</a></li>
+                <li class="active"><a href="#dashboards">Dashboards</a></li>
+                <li><a href="#sql">SQL Projects</a></li>
+                <li><a href="#python">Python Projects</a></li>
             </ul>
         </nav>
+        
         <div id="main">
-            <article class="post featured">
-                <header class="major">
-                    <span class="date">A Tableau Dashboard</span>
-                    <h2><a href="#">Airbnb Hosts in London</a></h2>
-                    <p>Looking at Airbnb hosts in London, using a publicly available dataset from Kaggle.</p>
-                </header>
-                <a href="#" class="image main"><img src="images/pic01.png" alt="Airbnb Dashboard" /></a>
-            </article>
-            <section class="posts">
-                <article>
-                    <header>
-                        <span class="date">Yet Another Tableau Dashboard</span>
-                        <h2><a href="#">JP Morgan Complaints in the United States</a></h2>
-                        <p>Based on complaints received by JP Morgan, using publicly available data from Kaggle.</p>
+            <!-- Dashboards Section -->
+            <section id="dashboards">
+                <h2>Interactive Dashboards</h2>
+                <article class="post featured">
+                    <header class="major">
+                        <span class="date">Tableau Dashboard</span>
+                        <h2><a href="#">Airbnb Hosts in London</a></h2>
+                        <p>Analyzing Airbnb host distribution using a Kaggle dataset.</p>
                     </header>
-                    <a href="#" class="image fit"><img src="images/Experimental Dashboard_page-0001.jpg" alt="Tableau Dashboard Example" /></a>
+                    <a href="#" class="image main"><img src="images/pic01.png" alt="Airbnb Dashboard" /></a>
                 </article>
-                <article>
-                    <header>
-                        <span class="date">Dashboard Made on Power BI</span>
-                        <h2><a href="#">Supermarket CLTV</a></h2>
-                        <p>Sample data from a supermarket, showcasing Customer Lifetime Value.</p>
-                    </header>
-                    <a href="#" class="image fit"><img src="images/pic03.jpeg" alt="Power BI Dashboard" /></a>
-                </article>
+                <section class="posts">
+                    <article>
+                        <header>
+                            <span class="date">Power BI Dashboard</span>
+                            <h2><a href="#">Supermarket CLTV</a></h2>
+                            <p>Customer Lifetime Value analysis using Power BI.</p>
+                        </header>
+                        <a href="#" class="image fit"><img src="images/pic03.jpeg" alt="Power BI Dashboard" /></a>
+                    </article>
+                </section>
             </section>
-            
-            <!-- SQL & Python Projects Section -->
-            <section id="sql-python">
-                <header class="major">
-                    <h2>SQL & Python Projects</h2>
-                </header>
-                <div class="posts">
+
+            <!-- SQL Projects Section -->
+            <section id="sql">
+                <h2>SQL Data Engineering Projects</h2>
+                <article class="post featured">
+                    <header class="major">
+                        <h2><a href="#">E-commerce Sales Analysis</a></h2>
+                        <p>Optimized database queries to extract insights on sales performance and customer trends.</p>
+                    </header>
+                    <a href="#" class="image main"><img src="images/sql_project.jpg" alt="SQL Project" /></a>
+                </article>
+                <section class="posts">
                     <article>
                         <header>
-                            <span class="date">SQL Query Optimization</span>
-                            <h2><a href="#">Improving Query Performance in Redshift</a></h2>
-                            <p>Experimenting with indexing, partitioning, and optimizing joins for large datasets.</p>
+                            <h2><a href="#">ETL Pipeline with DBT & Redshift</a></h2>
+                            <p>Built an incremental data pipeline in DBT to process millions of records efficiently.</p>
                         </header>
-                        <a href="#" class="image fit"><img src="images/sql_project.png" alt="SQL Optimization" /></a>
+                        <a href="#" class="image fit"><img src="images/dbt_pipeline.jpg" alt="DBT Project" /></a>
                     </article>
+                </section>
+            </section>
+
+            <!-- Python Projects Section -->
+            <section id="python">
+                <h2>Python Data Science & Automation Projects</h2>
+                <article class="post featured">
+                    <header class="major">
+                        <h2><a href="#">Time Series Forecasting</a></h2>
+                        <p>Used XGBoost and ARIMA models to predict energy demand trends.</p>
+                    </header>
+                    <a href="#" class="image main"><img src="images/time_series.jpg" alt="Time Series" /></a>
+                </article>
+                <section class="posts">
                     <article>
                         <header>
-                            <span class="date">Python Data Pipeline</span>
-                            <h2><a href="#">Building an ETL Pipeline with Pandas & DBT</a></h2>
-                            <p>Loading, transforming, and cleaning data using Python & DBT before pushing to Redshift.</p>
+                            <h2><a href="#">Web Scraping & Automation</a></h2>
+                            <p>Automated data extraction from public websites using BeautifulSoup & Selenium.</p>
                         </header>
-                        <a href="#" class="image fit"><img src="images/python_etl.png" alt="Python ETL Pipeline" /></a>
+                        <a href="#" class="image fit"><img src="images/web_scraping.jpg" alt="Web Scraping" /></a>
                     </article>
-                </div>
+                </section>
             </section>
         </div>
+        
         <footer id="footer">
-            <section>
-                <form method="post" action="#">
-                    <div class="fields">
-                        <div class="field">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div class="field">
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" />
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="3"></textarea>
-                        </div>
-                    </div>
-                    <ul class="actions">
-                        <li><input type="submit" value="Send Message" /></li>
-                    </ul>
-                </form>
-            </section>
             <section class="split contact">
-                <section class="alt">
-                    <h3>Address</h3>
-                    <p>London</p>
-                </section>
-                <section>
-                    <h3>Phone</h3>
-                    <p><a href="tel:+447385643830">+44 7385 643830</a></p>
-                </section>
                 <section>
                     <h3>Email</h3>
                     <p><a href="mailto:waqaswadi@gmail.com">waqaswadi@gmail.com</a></p>
                 </section>
+                <section>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/waqaswadiwala/">waqaswadiwala</a></p>
+                </section>
             </section>
         </footer>
+        
         <div id="copyright">
             <ul><li>&copy; Waqas Wadiwala</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
         </div>
     </div>
+
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
